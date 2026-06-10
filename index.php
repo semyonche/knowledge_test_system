@@ -1,6 +1,6 @@
 <?php
 $pageTitle = 'Главная';
-require_once __DIR__ . '/includes/header.php';
+require_once('includes/header.php');
 ?>
 
 <section class="landing-screen">
