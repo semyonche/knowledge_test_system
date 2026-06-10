@@ -1,0 +1,6 @@
+.auth-page{min-height:calc(100vh - 140px);display:grid;place-items:center}
+.auth-card{max-width:520px;margin:0 auto;padding:28px}
+.auth-card h1{margin:0 0 8px}
+.auth-card p{color:var(--muted);margin:0 0 18px}
+.auth-links{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-top:14px}
+

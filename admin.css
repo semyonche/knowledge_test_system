@@ -1,0 +1,10 @@
+.admin-layout{display:grid;grid-template-columns:280px 1fr;min-height:100vh;background:#f5f7fb}
+.admin-sidebar{background:#fff;border-right:1px solid #e5e7eb;padding:24px;position:sticky;top:0;height:100vh}
+.brand-admin{display:block;margin-bottom:22px}
+.admin-nav{display:grid;gap:10px}
+.admin-nav a{padding:12px 14px;border-radius:14px;color:#6b7280}
+.admin-nav a:hover{background:#eef2ff;color:#4f46e5}
+.admin-content{padding:28px}
+.dashboard-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-bottom:20px}
+@media (max-width:1100px){.dashboard-grid{grid-template-columns:repeat(2,1fr)}.admin-layout{grid-template-columns:1fr}.admin-sidebar{position:relative;height:auto}}
+@media (max-width:640px){.dashboard-grid{grid-template-columns:1fr}.admin-content{padding:18px}}
